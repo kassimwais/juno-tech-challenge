@@ -1,0 +1,130 @@
+/*
+    Task remaining : 
+    1. add the hover to links
+    2. add the 2 arrows on "welcome"
+    3. add the join our mailing list box
+    4. optimize for mobile and tablet 
+*/
+
+header, main {
+    padding: 30px;
+}
+
+nav {
+    font-size: 24px;
+    font-family: 'Montserrat';
+}
+
+p {
+    font-size: 22px;
+    font-family: 'Montserrat';
+}
+
+.date {
+    font-size: 20px;
+    font-family: 'Montserrat'
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+}
+
+#header-logo {
+    float: left;
+}
+
+#header-menu a {
+    color: black;
+}
+
+#header-menu li {
+    padding: 20px;
+}
+
+.introduction {
+    position: relative;
+    margin-bottom: 100px; 
+}
+
+.introduction div{
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    align-content: center;
+    padding: 10px;
+    width: 45%;
+    background-color: #D64C31;
+    color: white;
+}
+
+.introduction h1 {
+    font-size: 84px;
+    font-family: 'Cormorant Garamond';    
+}
+
+.welcome h1 {
+    font-size: 75px;
+    font-family: 'Montserrat'
+}
+
+.welcome {
+    background-color: #E8F1EE;
+    margin: 30px -80px 30px 0;
+    padding: 5px 80px;
+}
+
+.welcome .date {
+    color: #D64C31;
+}
+
+.list h1 {
+    color: #D64C31;
+    font-size: 50px;
+    font-family: 'Cormorant Garamond';
+}
+
+.list p, h1 {
+    padding-left: 20px;
+}
+
+.list span {
+    display: inline-block;
+    width: 40%;
+    margin-right: 5%;
+    margin-bottom: 25px;
+    background-color: #FFF0E7;
+    text-align: left;
+}
+
+footer {
+    margin: 20px -20px -20px -20px;
+    padding: 20px;
+    background-color: #D64C31;
+    background-size: cover;
+}
+
+#footer-left {
+    width: 50%;
+    color: white;
+    padding: 30px
+}
+
+#footer-left h3 {
+    font-size: 30px;
+}
+
+#footer-left ul {
+    margin-left: -40px;
+}
+
+#footer-left li {
+    padding-right: 10px; 
+}
+
+#footer-left a {
+    color: white;
+}
