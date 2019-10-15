@@ -1,9 +1,9 @@
 /*
     Task remaining : 
-    1. add the hover to links
-    2. add the 2 arrows on "welcome"
-    3. add the join our mailing list box
-    4. optimize for mobile and tablet 
+    1. add the hover to links   - done
+    2. add the 2 arrows on "welcome"    - done
+    3. add the join our mailing list box    - done
+    4. optimize for mobile and tablet
 */
 
 header, main {
@@ -41,6 +41,11 @@ li {
     color: black;
 }
 
+#header-menu a:hover {
+    color: #D64C31;
+    font-size: 30px;
+}
+
 #header-menu li {
     padding: 20px;
 }
@@ -72,9 +77,28 @@ li {
 }
 
 .welcome {
+    position: relative;
     background-color: #E8F1EE;
     margin: 30px -80px 30px 0;
     padding: 5px 80px;
+}
+
+#left {
+    position: absolute;
+    right: 45%;
+    top: 30%;
+    padding: 20px;
+    background: #D64C31;
+    color: #FFFFFF;
+}
+
+#right {
+    position: absolute;
+    right: 41%;
+    top: 30%;
+    padding: 20px;
+    background: #D64C31;
+    color: #FFFFFF;
 }
 
 .welcome .date {
@@ -101,6 +125,7 @@ li {
 }
 
 footer {
+    position: relative;
     margin: 20px -20px -20px -20px;
     padding: 20px;
     background-color: #D64C31;
@@ -108,7 +133,7 @@ footer {
 }
 
 #footer-left {
-    width: 50%;
+    width: 40%;
     color: white;
     padding: 30px
 }
@@ -128,3 +153,45 @@ footer {
 #footer-left a {
     color: white;
 }
+
+#footer-left a:hover {
+    color: #4A455C;
+    font-size: 30px;
+}
+
+#footer-right {
+    position: absolute;
+    top: -10%;
+    right: 17%;
+    background-color: #4A455C;
+    width: 30%;
+    padding: 30px;
+    color: #FFFFFF;
+}
+
+#footer-right h3 {
+    font-family: 'Montserrat';
+    font-size: 30px;
+}
+
+#email {
+    width: 100%;
+    font-size: 22px;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 0.2em;    
+}
+
+#footer-right button {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    background-color: #FFF0E7;
+    padding: 5px;
+    border-radius: 0.2em;
+}
+
+#footer-right a {
+    padding-right: 20px;
+    color: #FFFFFF;
+}
+
